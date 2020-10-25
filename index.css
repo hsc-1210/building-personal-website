@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.header {
+  height: 50px;
+  background: green;
+}
+.gap {
+  height: 20px;
+}
+.alert {
+  height: 50px;
+  width: 80%;
+  margin: 0 auto;
+  background: pink;
+  background: gold;
+}
+.LunBo-container {
+  height: 200px;
+  width: 80%;
+  background: pink;
+  margin: 0 auto;
+}
+@media (min-width: 1200px) {
+  .LunBo-container {
+    background: red;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .LunBo-container {
+    background: #00b3ee;
+  }
+}
+.contend {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contend .item {
+  width: 20%;
+  height: 100%;
+  background: pink;
+}
+body {
+  background: deepskyblue;
+}
+/*# sourceMappingURL=index.css.map */
